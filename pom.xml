@@ -70,6 +70,8 @@
                     <jdbcPassword></jdbcPassword>
                     <packageName>br.com.jeancnasc.testando.querydsl</packageName>
                     <targetFolder>${project.basedir}/target/generated-sources/java</targetFolder>
+                    <exportBeans>true</exportBeans>
+                    <validationAnnotations>true</validationAnnotations>
                 </configuration>
                 <dependencies>
                     <dependency>
